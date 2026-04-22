@@ -4,7 +4,7 @@ echo ""
 echo "Script de liste des utilisateurs d'un groupe"
 echo ""
 
-supprimerungrp(){
+listungrp(){
 GROUPE1=$1
 MEMBRES=$(grep "^${GROUPE1}:" /etc/group | cut -d: -f4)
 
@@ -18,7 +18,7 @@ fi
 }
 
 echo ""
-echo "Quel groupe souhaitez-vous intéroger ?"
+echo "Quel groupe souhaitez-vous interroger ?"
 echo ""
 read groupe
-supprimerungrp $groupe
+listungrp $groupe

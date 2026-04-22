@@ -8,7 +8,7 @@ sudo groupdel adminsysdev
 sudo groupdel developpeurjavamobile
 
 
-# Creation des groupes
+# Création des groupes
 
 # Groupe DeveloppeurWeb
 sudo groupadd developpeurweb
@@ -19,7 +19,7 @@ sudo groupadd adminsysdev
 # Groupe DeveloppeurJavaMobile
 sudo groupadd developpeurjavamobile
 
-# Creation utilisateur
+# Création d'utilisateur
 Exit=False
 while [ $Exit == False ]
 do
@@ -32,7 +32,7 @@ do
     if [ "$nomutilisateur" != "exit" ]
     then
         sudo useradd -m $nomutilisateur -p "$pass"
-        echo "Si vous souhaitez l'ajouter à un groupe taper le numéro associé : developpeurweb(0) concepteurdatabase(1) administrateursystemesdeveloppement(2) developpeurjavamobile(3) Aucun groupe(rien)"
+        echo "Si vous souhaitez l'ajouter à un groupe taper le numéro associé : developpeurweb(0) concepteurdatabase(1) adminsysdev(2) developpeurjavamobile(3) Aucun groupe(rien)"
         read groupe
         if [ "$groupe" -eq 0 ]
         then
