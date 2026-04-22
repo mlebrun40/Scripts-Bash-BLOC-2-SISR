@@ -1,4 +1,4 @@
-# Scripts de Gestion des Utilisateurs et Groupes
+# Scripts réalisés en BLOC 2 - SISR
 
 <div align="center">
   <img src="https://louisdefoix.fr/storage/2025/10/logosanstexte.png" alt="Logo Lycée Louis de Foix"  height="120">
