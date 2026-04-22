@@ -12,22 +12,6 @@ Ce dépôt contient des scripts bash développés dans le cadre du **BTS SIO** (
 
 Les scripts fournis permettent de gérer facilement les utilisateurs et groupes sous Linux :
 
-### 📋 Scripts inclus
-
-- **`addgrp-and-users.sh`** : Création de groupes et ajout d'utilisateurs avec attribution automatique aux groupes
-- **`del-grp-user.sh`** : Suppression des groupes et utilisateurs associés
-- **`list-users-in-a-grp.sh`** : Affichage de la liste des utilisateurs d'un groupe
-
-## Utilisation
-
-Pour exécuter les scripts, vous devez avoir les droits `sudo` :
-
-```bash
-bash addgrp-and-users.sh
-bash del-grp-user.sh
-bash list-users-in-a-grp.sh
-```
-
 ## Remarques
 
 Ces scripts nécessitent une connexion administrateur (sudo) pour fonctionner correctement.
