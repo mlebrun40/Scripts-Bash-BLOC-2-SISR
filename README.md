@@ -1,6 +1,8 @@
 # Scripts de Gestion des Utilisateurs et Groupes
 
-<img src="https://louisdefoix.fr/storage/2025/10/logosanstexte.png" alt="Logo Lycée Louis de Foix" width="120" height="120">
+<div align="center">
+  <img src="https://louisdefoix.fr/storage/2025/10/logosanstexte.png" alt="Logo Lycée Louis de Foix"  height="120">
+</div>
 
 ## À propos
 
